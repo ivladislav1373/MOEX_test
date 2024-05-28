@@ -4,6 +4,7 @@ import org.h2.jdbc.JdbcSQLTransientException;
 
 import java.sql.*;
 //Тест
+// Привет, Тимур!
 public class databaseHandler {
 //    public static final String DB_URL = "jdbc:h2:mem:db";
     public static final String DB_URL = "jdbc:h2:file:C:\\teest\\db_4_moex_checker";
@@ -11,6 +12,7 @@ public class databaseHandler {
     public static final String user_table_name = "Users";
     public static final String Vlad_id = String.valueOf(Bot.Vlad_id);
     public static final String Timur_id = String.valueOf(Bot.Vlad_id);
+
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         createTable(user_table_name);

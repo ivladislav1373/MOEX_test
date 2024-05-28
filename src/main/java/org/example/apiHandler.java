@@ -26,6 +26,7 @@ public class apiHandler {
         try (
                 CloseableHttpClient httpClient = HttpClientBuilder.create().build()
         ) {
+            //привет
             StringBuilder params = new StringBuilder("?");
             params.append("iss.meta=off");
             params.append("&marketdata.columns=");
